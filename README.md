@@ -1,38 +1,38 @@
-## Projeto: Kawasaki
+## Project: Kawasaki
 
-### Teste Automatizado: Verificação de Funcionalidade de Cadastro, Login, Localização de Concessionária, Menu Motocicletas, Caixa de Busca e Banner.
+### Automated Test: Functionality Check of Registration, Login, Dealer Location, Motorcycle Menu, Search Box and Banner.
 
-### Objetivo
-Cadastro - O objetivo deste teste é verificar se o processo de registro de novos usuários no sistema funciona corretamente, conforme os requisitos definidos. Esse caso de teste visa assegurar que todos os campos obrigatórios sejam preenchidos adequadamente, e que o sistema responda de maneira apropriada em situações normais e excepcionais.
+### Objective
+Registration - The objective of this test is to verify whether the process of registering new users in the system works correctly, according to the defined requirements. This test case aims to ensure that all mandatory fields are completed appropriately, and that the system responds appropriately in normal and exceptional situations.
 
-Login - O objetivo deste teste é verificar é assegurar que o sistema de autenticação permite que usuários legítimos acessem suas contas de forma segura e eficaz, enquanto impede acessos não autorizados. O teste deve garantir que todos os requisitos funcionais e não funcionais do processo de login sejam atendidos, desde a validação de credenciais até a proteção contra tentativas de acesso maliciosas.
+Login - The purpose of this test is to verify that the authentication system allows legitimate users to access their accounts securely and effectively, while preventing unauthorized access. Testing must ensure that all functional and non-functional requirements of the login process are met, from validating credentials to protecting against malicious access attempts.
 
-Localização de Concessionária - O objetivo deste teste é garantir que o sistema identifique, processe e utilize corretamente a localização de uma(s) entidade(s) específica(s). Isso inclui verificar a precisão dos dados de localização, (como nme da entidade e cep) e a correta integração com APIs. 
+Dealership Location - The purpose of this test is to ensure that the system correctly identifies, processes and uses the location of a specific entity(ies). This includes checking the accuracy of location data (such as entity name and zip code) and correct integration with APIs. 
 
-Menu Motocicletas - O objetivo deste teste é assegurar que o menu exiba corretamente as promoções disponíveis, permitindo que os usuários interajam com ele de maneira eficiente e intuitiva.
+Motorcycles Menu - The objective of this test is to ensure that the menu correctly displays the available promotions, allowing users to interact with it in an efficient and intuitive way.
 
-Caixa de Busca - O objetivo deste teste é garantir que o sistema permita aos usuários encontrar informações de maneira rápida, precisa e relevante, de acordo com os critérios de pesquisa definidos. Esse teste deve verificar a eficiência do algoritmo de busca, a adequação dos resultados retornados, a usabilidade da interface de busca, e a conformidade com os requisitos funcionais e não funcionais.
+Search Box - The objective of this test is to ensure that the system allows users to find information quickly, accurately and relevantly, according to the defined search criteria. This test must verify the efficiency of the search algorithm, the adequacy of the results returned, the usability of the search interface, and compliance with functional and non-functional requirements.
 
-Banner - O objetivo deste teste é garantir que os banners deslizantes sejam exibidos corretamente na interface do usuário, proporcionando uma experiência visual agradável e interativa. Este teste deve verificar que o carrossel funciona conforme o planejado, apresentando os banners em sequência, permitindo a navegação manual e automática, e cumprindo requisitos de design, desempenho e acessibilidade.
+Banner - The purpose of this test is to ensure that sliding banners are displayed correctly in the user interface, providing a pleasant and interactive visual experience. This test must verify that the carousel works as planned, presenting the banners in sequence, allowing manual and automatic navigation, and meeting design, performance and accessibility requirements.
 
-### Escopo
-- Página: https://www.kawasakibrasil.com/pt-br/
-- Navegadores: Chrome Versão 125.0.6422.176 (x64 bits)
-- Dispositivos: Desktop
-- Sistema Operacional: Windows 10
-- Ferramenta de Teste: Cypress
+### Scope
+- Page: https://www.kawasakibrasil.com/pt-br/
+- Browser: Chrome Versão 125.0.6422.176 (x64 bits)
+- Devices: Desktop
+- Operating System: Windows 10
+- Test Tool: Cypress
 
-### Pré-condições
-1. O ambiente de teste deve estar configurado e acessível.
-2. Cypress deve estar instalado e configurado no projeto.
+### Preconditions
+1. The test environment must be configured and accessible.
+2. Cypress must be installed and configured in the project.
 
-### Para a execução do teste:
-Execute o Cypress: npm cypress open
+### To run the test:
+Run Cypress: npm cypress open
 
-### Notas
-- Em caso de falha, adicione comentários detalhados sobre o erro encontrado.
-- Anexe capturas de tela, se necessário.
+### Notes
+- In case of failure, add detailed comments about the error encountered.
+- Attach screenshots if necessary.
 
 ### Status
-- **Data do Teste:** 27/08/2024
-- **Testador:** Thierry Castro
+- **Test Date:** 27/08/2024
+- **Tester:** Thierry Castro
