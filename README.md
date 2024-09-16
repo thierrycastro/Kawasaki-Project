@@ -27,7 +27,7 @@ Banner - The purpose of this test is to ensure that sliding banners are displaye
 2. Cypress must be installed and configured in the project.
 
 ### To run the test:
-Run Cypress: npm cypress open
+Run Cypress: npx cypress open
 
 ### Notes
 - In case of failure, add detailed comments about the error encountered.
